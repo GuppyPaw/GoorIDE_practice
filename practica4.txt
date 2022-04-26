@@ -1,3 +1,15 @@
 -- JOIN
 
-1.- 
+1.- Used JOIN to show the rows where two tables match
+  1.1 USING can be used to specified the field to match the tables
+  1.2 JOIN is the same as INNER JOIN
+2.- Using LEFT JOIN will show matching rows and the rest from the 'left' table
+3.- Same with RIGHT JOIN, just showing all of the 'right' table rows
+4.- FULL OUTER JOIN can be used to show the matching data plus the rest from both tables
+5.- We used CROSS JOIN to match every row from the 'left' table with every row from the 'right' table
+
+-- UNION
+
+1.- To combine query results UNION can be used
+  1.1 UNION will not show repeating results unless we use UNION ALL
+2.- UNION puede modificarse más con ORDER BY, GROUP BY, AS, INTERSECT, EXCEPT
